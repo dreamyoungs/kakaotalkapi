@@ -56,6 +56,13 @@ Default Content-Type : application/json
 통신시 `Header`에는 `Authorization`를 이용하여 발급된 키를 첨부 하여야 합니다.
 ```
 
+```
+"headers":{
+   "Content-Type": "application/json",
+   "Authorization": `Bearer 발급된 키`,
+}
+```
+
 GET/POST/DELETE :  
 `Content-Type: application/json`  
 File Upload 의 경우에만   
